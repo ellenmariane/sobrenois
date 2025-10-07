@@ -1,0 +1,98 @@
+nav {
+    background-color: lightgray;
+}
+
+.barra-superior-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    height: 100px;
+}
+
+.logo-img-nav {
+    width: 20%;
+    background-color: gray;
+    height: 75%;
+}
+
+.barra-pesquisa-nav {
+    width: 46%;
+    display: flex;
+    height: 25%;
+    padding: 5px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.barra-pesquisa-nav form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.barra-pesquisa-nav input {
+    width: 93%;
+    height: 100%;
+    border: none;
+}
+
+.barra-pesquisa-nav input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#lupa-nav {
+    width: 5%;
+    height: 100%;
+}
+
+.conta-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    height: 40%;
+}
+
+.conta-midia-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.conta-midia-nav h1 {
+    font-size: medium;
+    width: 70%;
+}
+
+.barra-inferior-nav {
+    border: 1px solid black;
+}
+
+.barra-inferior-nav ul {
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.barra-inferior-nav li {
+    padding: 15px 20px;
+}
+
+.barra-inferior-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-categoria-nav {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-categoria-nav img {
+    width: 20px;
+    height: 20px;
+}
